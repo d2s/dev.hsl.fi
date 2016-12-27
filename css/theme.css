@@ -1,0 +1,12 @@
+.hsldev-main-header {
+  background: #007ac9;
+  color: white;
+
+  /* Override default margin of the element */
+  margin-top: 0;
+  padding: 20px;
+}
+
+.hsldev-main-navbar {
+  /*background: #BEE4F8;*/
+}

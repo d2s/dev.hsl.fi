@@ -65,20 +65,116 @@
     });
   });
   </script>
-  <link rel="stylesheet" href="css/master.css" media="screen" title="default styles">
+  <link rel="stylesheet" href="css/tachyons.min.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <!-- <link rel="stylesheet" href="css/master.css"> -->
 </head>
-<body>
+<body class="black bg-light-gray">
+  <!-- debug -->
+
+<h1 class="f1 lh-title hsldev-main-header">
+  <a href="https://www.hsl.fi/en"><img title="Home" class="hsldev-main-header--logo" alt="HSL" src="logo.png"></a>
+  HSL Developer Community
+</h1>
 
 
-<h1><a href="https://www.hsl.fi/en"><img title="Home" alt="HSL" src="logo.png"></a>HSL Developer Community</h1>
+<!-- <nav class="dt w-100 border-box pa3 ph5-ns">
+  <a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
+    <img src="logo.png" class="dib w2 h2 br-100" alt="Site Name">
+  </a>
+  <div class="dtc v-mid w-75 tr">
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#contact">Contact</a>
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#upcoming">Upcoming</a>
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#services">Services</a>
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#journeyplanning">Journey planning</a>
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#maps">Maps</a>
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#travel-card">Travel card</a>
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#projects">Projects</a>
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#resources">Documentation</a>
+    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  href="#related">Related</a>
+    <a class="link dim dark-gray f6 f5-ns dib"  href="#past">Past</a>
+  </div>
+</nav> -->
 
-<div class="navbar">
+
+<nav class="pa3 pa4-ns hsldev-main-navbar">
+  <!-- <a class="link dim black b f6 f5-ns dib mr3" href="#" title="Home">Site Name</a>
+  <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Home">Home</a>
+  <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="About">About</a>
+  <a class="link dim gray    f6 f5-ns dib" href="#" title="Contact">Contact</a> -->
+
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#contact">Contact</a>
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#upcoming">Upcoming</a>
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#services">Services</a>
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#journeyplanning">Journey planning</a>
+  <!-- <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#navigator">Navigator</a> -->
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#maps">Maps</a>
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#travel-card">Travel card</a>
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#projects">Projects</a>
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#resources">Documentation</a>
+  <a class="link dim dark-gray    f6 f5-ns dib mr3"  href="#related">Related</a>
+  <a class="link dim dark-gray    f6 f5-ns dib"  href="#past">Past</a>
+
+</nav>
+
+
+
+<article class="cf pa3 mw9 center">
+  <!-- <header class="fl w-100 w-50-l pa3-m pa4-l mb3 mb5-l">
+    <h2 class="lh-title f3 b mt0">
+      Beginners and amateurs alike overestimate the importance of the
+      so-called brain wave, the sudden brilliant idea.
+    </h2>
+  </header> -->
+  <section class="fl w-100">
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        HSL Developer Community is open for all individuals and organisations interested in the Open Data and Open Source software regarding <a href="https://www.hsl.fi/en">Helsinki Region Transport HSL</a> or wider. HSL is the public authority that plans and procures the public transport (ferry, tram, metro, train, bus) within its member municipalities (Helsinki, Vantaa, Espoo, Kauniainen, Kirkkonummi, Kerava, and Sipoo).
+      </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        <!-- <a name="trunk-routes-2020"></a>
+        <a href="doc/runkolinjasto_2020.pdf"><img src="images/runkolinjasto_2020.png"></a> -->
+        …
+      </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        <!-- <a href="#journeyplanning"><img src="images/digitransit-2015-05-12.png" /></a> -->
+        …
+      </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <p class="f6 lh-copy measure">
+        …
+      </p>
+    </div>
+  </section>
+  <section class="fl w-100">
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4">
+        <a name="trunk-routes-2020"></a>
+        <a href="doc/runkolinjasto_2020.pdf"><span style="background-image:url(images/runkolinjasto_2020.png);" class="cover bg-center aspect-ratio--object"></span></a>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4">
+        <a href="#journeyplanning"><span style="background-image:url(images/digitransit-2015-05-12.png);" class="cover bg-center aspect-ratio--object"></span></a>
+      </div>
+    </div>
+  </section>
+
+
+</article>
+
+
+<!-- <div class="navbar">
   <ul>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#upcoming">Upcoming</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#journeyplanning">Journey planning</a></li>
-    <!-- <li><a href="#navigator">Navigator</a></li> -->
     <li><a href="#maps">Maps</a></li>
     <li><a href="#travel-card">Travel card</a></li>
     <li><a href="#projects">Projects</a></li>
@@ -86,63 +182,8 @@
     <li><a href="#related">Related</a></li>
     <li><a href="#past">Past</a></li>
   </ul>
-</div>
+</div> -->
 
-
-
-<div class="right-sidebar">
-
-  <div class="sidebox">
-    <h3><a href="https://facebook.com/HSLdevcom">Facebook</a></h3>
-    <iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fhsldevcom&amp;width=300&amp;height=350&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color=white&amp;header=false" scrolling="no" frameborder="0"
-      style="border:none; overflow:hidden; width:300px; height:350px; margin: -1px;" allowTransparency="true"></iframe>
-  </div>
-
-  <div>
-    <div>
-      <a class="twitter-timeline" href="https://twitter.com/HSLdevcom" height="350" data-chrome="nofooter" data-widget-id="323828770396045314">Tweets by @HSLdevcom</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-  </div>
-
-  <div class="wiki_events avoindata_questions">
-    <h3><a href="http://avoindata.net">Recent Avoindata.net questions</a></h3>
-    <ul id="avoindata_questions">
-      <li class="template" style="display: none">
-        <span class="timestamp"></span>
-        <a class="userlink"><img class="avatar" /> <span class="username"></span></a> <span class="action"></span> <br />
-        <a class="link title"></a><br clear="both" />
-      </li>
-    </ul>
-  </div>
-
-  <div class="wiki_events">
-    <h3><a href="https://github.com/HSLdevcom/hsl-navigator/wiki/_pages">Recent Wiki pages</a></h3>
-    <ul id="gollum-events">
-      <li class="template" style="display: none">
-        <span class="timestamp"></span>
-        <a class="userlink"><img class="avatar" /> <span class="username"></span></a> <span class="action"></span> page <br />
-        <a class="pagename"></a><br clear="both" />
-      </li>
-    </ul>
-  </div>
-
-</div>
-
-
-<a name="trunk-routes-2020"></a>
-<div class="picture" style="float: left; width: auto; height: 300px">
-  <a href="doc/runkolinjasto_2020.pdf"><img src="images/runkolinjasto_2020.png"></a>
-</div>
-
-<div class="picture" style="float: left; width: auto; height: 300px">
-  <a href="#journeyplanning"><img src="images/digitransit-2015-05-12.png" /></a>
-</div>
-
-
-<br clear="left" style="font-size: 0" />
-
-<p>HSL Developer Community is open for all individuals and organisations interested in the Open Data and Open Source software regarding <a href="https://www.hsl.fi/en">Helsinki Region Transport HSL</a> or wider. HSL is the public authority that plans and procures the public transport (ferry, tram, metro, train, bus) within its member municipalities (Helsinki, Vantaa, Espoo, Kauniainen, Kirkkonummi, Kerava, and Sipoo).</p>
 
 
 <h2 id="contact">Contact</h2>
@@ -492,6 +533,49 @@
   <li><a href="http://hslmobiilikisa.blogspot.fi/p/call-for-entries.html">HSL Mobile Competition</a> (in Finnish) in 2011</li>
   <li><a href="http://developer.reittiopas.fi">Developer portal and API</a> open since 2009</li>
 </ul>
+
+
+
+<div class="right-sidebar">
+
+  <div class="sidebox">
+    <h3><a href="https://facebook.com/HSLdevcom">Facebook</a></h3>
+    <iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fhsldevcom&amp;width=300&amp;height=350&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color=white&amp;header=false" scrolling="no" frameborder="0"
+      style="border:none; overflow:hidden; width:300px; height:350px; margin: -1px;" allowTransparency="true"></iframe>
+  </div>
+
+  <div>
+    <div>
+      <a class="twitter-timeline" href="https://twitter.com/HSLdevcom" height="350" data-chrome="nofooter" data-widget-id="323828770396045314">Tweets by @HSLdevcom</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+  </div>
+
+  <div class="wiki_events avoindata_questions">
+    <h3><a href="http://avoindata.net">Recent Avoindata.net questions</a></h3>
+    <ul id="avoindata_questions">
+      <li class="template" style="display: none">
+        <span class="timestamp"></span>
+        <a class="userlink"><img class="avatar" /> <span class="username"></span></a> <span class="action"></span> <br />
+        <a class="link title"></a><br clear="both" />
+      </li>
+    </ul>
+  </div>
+
+  <div class="wiki_events">
+    <h3><a href="https://github.com/HSLdevcom/hsl-navigator/wiki/_pages">Recent Wiki pages</a></h3>
+    <ul id="gollum-events">
+      <li class="template" style="display: none">
+        <span class="timestamp"></span>
+        <a class="userlink"><img class="avatar" /> <span class="username"></span></a> <span class="action"></span> page <br />
+        <a class="pagename"></a><br clear="both" />
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+
 
 </body>
 </html>
